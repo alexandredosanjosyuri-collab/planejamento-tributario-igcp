@@ -23,9 +23,9 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# 1. EXIBE A LOGO NA BARRA LATERAL (logo 2.jpg)
+# 1. EXIBE A LOGO NA BARRA LATERAL (Logo 2.jpg com 'L' maiúsculo)
 try:
-    st.sidebar.image("logo 2.jpg", use_container_width=True)
+    st.sidebar.image("Logo 2.jpg", use_container_width=True)
 except Exception:
     st.sidebar.markdown("### **IGCP CONTÁBIL**")
 
@@ -49,11 +49,11 @@ aliq_inss_patronal = 0.278
 
 margem_presunção = 0.32 if segmento == "Serviços" else 0.08
 
-# CABEÇALHO COM A LOGO (logo 2.jpg)
+# CABEÇALHO COM A LOGO (Logo 2.jpg com 'L' maiúsculo)
 head_col1, head_col2 = st.columns([1, 5])
 with head_col1:
     try:
-        st.image("logo 2.jpg", width=110)
+        st.image("Logo 2.jpg", width=110)
     except Exception:
         pass
 with head_col2:
